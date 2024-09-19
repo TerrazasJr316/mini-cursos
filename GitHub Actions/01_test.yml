@@ -1,0 +1,28 @@
+key: 12
+key_one: True
+key_two: null
+key_three: Hola Mundo
+
+person:
+  name: Josué
+  age: 21
+  city: CDMX
+  items:
+    - item1
+    - item2
+    - item3
+
+  item2:
+    - item1: hola
+    - item2: hola
+    - item3: hola
+
+script: >
+  hola
+  hola
+  testort
+
+scripts: |
+  touch hola.txt
+  echo "Hola";
+
